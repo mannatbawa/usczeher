@@ -18,6 +18,9 @@
   display: flex;
   gap: 20px;
 }
+.footer-icons:hover {
+  cursor: pointer;
+}
 
 .instagram-icon,
 .interest-form-icon {

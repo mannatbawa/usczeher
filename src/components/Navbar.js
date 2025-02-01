@@ -28,9 +28,14 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          <div className="navbar-logo img">
+          <ScrollLink
+            to="home"
+            smooth={true}
+            className="navbar-logo"
+            onClick={closeMobileMenu}
+          >
             <img src={logo} alt="logo" />
-          </div>
+          </ScrollLink>
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />

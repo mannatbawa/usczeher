@@ -28,6 +28,18 @@
   cursor: pointer;
 }
 
+.navbar-logo img {
+  position: fixed;
+  margin-left: 10px;
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 15px;
+  align-items: center;
+  height: 60px;
+  width: auto;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 12000px) {
   .navbar-logo img {
     position: fixed;
@@ -69,6 +81,7 @@
 .nav-links:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
+  cursor: pointer;
 }
 .fa-bars {
   color: #fff;
