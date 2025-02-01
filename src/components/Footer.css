@@ -1,0 +1,30 @@
+.footer {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.instagram-icon,
+.interest-form-icon {
+  color: white;
+  text-decoration: none;
+}
+
+.interest-form-icon {
+  font-weight: 50px;
+}

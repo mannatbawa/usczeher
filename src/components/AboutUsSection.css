@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 2vw;
+  justify-content: center;
+  top: 89.5%;
+  padding-left: 9%;
+  padding-right: 9%;
+  background-color: black;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 600px) {
+  h3 {
+    font-size: 3.5vw;
+    top: 89%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutUs {
+    padding-top: 10%;
+    flex-direction: column;
+  }
+
+  .section {
+    font-size: 4.5vw;
+  }
+}
+.section {
+  font-size: 5.5vw;
+  color: white;
+  text-align: center;
+  background-color: black;
+  height: 100%;
+}
+.aboutUs {
+  position: relative;
+  padding-top: 5%;
+  display: flex;
+  width: 100%;
+  background-color: black;
+}
+.top-right {
+  position: absolute;
+  top: -15%;
+  right: 5%;
+  font-size: 15vw;
+  z-index: 4;
+}
+.image-container {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  background-color: black;
+  height: 100%;
+}
+
+.designed {
+  position: relative;
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+  margin-left: 5%;
+  z-index: 1;
+  margin-right: 2.5%;
+}

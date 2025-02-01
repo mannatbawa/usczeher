@@ -1,0 +1,106 @@
+h2 {
+  color: white;
+  font-size: 13vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -7%;
+}
+
+.carousel {
+  padding-top: 0;
+  background-color: black;
+  font-size: 2vw;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin-bottom: -7%;
+}
+
+.carousel_wrapper {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.video-item {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 5;
+  color: black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 3%;
+  z-index: 5;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: lightgray;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.active {
+  background-color: white;
+}
+
+.video-item-active {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: visible;
+}
+
+.card_overlay {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+
+  z-index: 4;
+}
+
+.carousel_arrow_left,
+.carousel_arrow_right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel_arrow_left {
+  left: 5%;
+}
+
+.carousel_arrow_right {
+  right: 5%;
+}
